@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:black;
+}
+.nav{
+    padding:10px;
+    display:flex;
+    justify-content:space-between;
+    padding-bottom: 3px;
+}
+.nav .link{
+    padding:5px;
+}
+.nav .link a{
+    margin-left: 5px;
+    text-decoration:none;
+    color: white;
+    cursor: pointer;
+}
+.nav .search{
+    padding:5px;
+}
+.nav .search form span input{
+    background-color:rgb(250, 248, 248);
+    border-radius: 10px;
+    padding:3px;
+    width:auto;
+    color:black;
+}
+.nav .search form span button{
+    padding:3px;
+    border-radius:10px;
+    background-color:aliceblue;
+}
+.nav .search form span button:hover{
+    background-color:rgba(151, 252, 68, 0.555);
+}
+.navbar{
+    width: 100%;
+    height: 90vh;
+    background-image: url("../image/navebar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contant-nav{
+    position: absolute;
+    background-color: rgba(81, 3, 126, 0.199);
+    top: 0;
+    width: 100%;
+    height:96vh;
+}
+.personal{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    width: 60%;
+    right: 20%;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    color:rgb(251, 252, 186)
+}
+.personal h2{
+    margin-top: 10px;
+    margin-bottom:3px;
+    width:100%;
+    border-bottom: 2px solid white;
+}
+.container{
+    background-color:rgba(255, 255, 255, 0.178);
+    border-radius:20px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+@media (min-width:576px){
+    .container{
+        max-width: 540px;
+    }
+}
+@media (min-width:768px){
+    .container{
+        max-width: 720px;
+    }
+}
+@media (min-width:992px){
+    .container{
+        max-width: 960px;
+    }
+}
+@media (min-width:1200px){
+    .container{
+        max-width: 1152px;
+    }
+}
+/*universal class start*/
+.font{
+    color: rgb(199, 77, 247);
+    font-size:30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    border-bottom: 3px dashed rgb(91, 241, 166);
+}
+.font1{
+    color: rgb(250, 21, 21);
+    font-size: 24px;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.font2{
+    color: aqua;
+    font-size:20px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*universal class end*/
+.aboutsection{
+    text-align: center;
+}
+.aboutsection h1{
+    margin-top:5px;
+    margin-bottom:3px;
+}
+.container .about{
+    display:flex;
+    justify-content:center;
+}
+.container .about .profile-img{
+    margin-top:10px;
+    width:50%;
+    height:50%;
+}
+.container .about .profile-img img{
+    border-radius: 100%;
+    width:40%;
+    height:50%;
+}
+.container .profile{
+    margin-top: 10px;
+    text-align:center;
+}
+.image h1{
+    text-align:center;
+}
+.image .image-post{
+    display:flex;
+    justify-content: space-between;
+    width:50%;
+    height:50%;
+}
+.image .image-post img{
+    margin-top: 20px;
+    margin-left: 20px;
+    width:60%;
+    height: 50%;
+}
+.contactsection{
+    text-align:center;
+}
+.contactsection h1{
+    margin-top:10px;
+    margin-bottom:5px;
+}
+.contactsection .contact-imp{
+    margin-top: 10px;
+    display:flex;
+    justify-content:space-around;
+}
+.contactsection .contact-imp .imp-link{
+    text-align: center;
+    padding:10px;
+}
+.contactsection .contact-imp .imp-link a{
+    text-decoration:none;
+    font-size: 20px;
+    color:aliceblue;
+}
+.contactsection .contact-imp .contact-info p{
+    padding:10px;
+    font-size:16px;
+}
+footer{
+    background-color:rgba(255, 255, 255, 0.24);
+    margin-top:10px;
+    padding:10px;
+    display:flex;
+    justify-content:center;
+}
+footer .rights{
+    display:flex;
+    justify-content:center;
+}
