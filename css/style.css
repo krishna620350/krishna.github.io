@@ -201,9 +201,9 @@ footer .rights{
     margin-top: 5px;
 }
 .col-md-3 img{
-    padding: 10px;
+    padding: 5px;
     min-width:100%;
-    max-height: 150px;
+    min-height: 200px;
 }
 body .carousel-indicator li{
     background-color : blue;
